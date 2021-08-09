@@ -14,7 +14,9 @@
 			</div>
 		</div>
 
-		<a href="/practice" class="first-btn">Start Practicing <i class="fas fa-play"></i></a>
+		<router-link to="/practice" class="first-btn"
+			>Start Practicing <i class="fas fa-play"></i
+		></router-link>
 	</div>
 </template>
 
