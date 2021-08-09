@@ -1,6 +1,6 @@
 <template>
 	<label for="file-upload" class="custom-file-upload">
-		<i class="fas fa-folder-open"></i> Open file
+		<i class="fas fa-folder-open" id="icon"></i> Open File
 	</label>
 	<input id="file-upload" type="file" @change="readFile()" ref="fileinput" />
 </template>
