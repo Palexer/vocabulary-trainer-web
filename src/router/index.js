@@ -16,6 +16,11 @@ const routes = [
 		name: "CreateFile",
 		component: () => import("../views/CreateFile.vue"),
 	},
+	{
+		path: "/:pathMatch(.*)*",
+		name: "NotFoundPage",
+		component: () => import("../views/NotFoundPage.vue"),
+	},
 ]
 
 const router = createRouter({
